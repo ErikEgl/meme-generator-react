@@ -103,6 +103,7 @@ main {
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  width: 100%;
 }
 .meme:hover .meme--text {
   border: 1px solid #711F8D !important;

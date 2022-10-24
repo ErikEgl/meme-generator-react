@@ -74,20 +74,20 @@ export default function Meme() {
             Get a new meme image 🖼
           </button>
         </div>
-        <div style={{ width: ref.current?.offsetWidth }} className="meme">
+        <div style={{ maxWidth: ref.current?.offsetWidth }} className="meme">
           <img
             ref={ref}
             alt="Text"
             src={meme.randomImage}
             className="meme--image"
           />
-          {meme.topText.length > 0 && (<Draggable bounds={"parent"}>
+          {meme.topText.length > 0 && (<Draggable defaultPosition={{x: -50, y: 0}} bounds={"parent"}>
             <h2 style={{ maxWidth: ref.current?.offsetWidth }} className="meme--text top">
                   {meme.topText}
             </h2>
           </Draggable>)}
  
-          {meme.bottomText.length > 0 && (<Draggable bounds={"parent"}>
+          {meme.bottomText.length > 0 && (<Draggable defaultPosition={{x: -50, y: 0}} bounds={"parent"}>
             <h2 style={{ maxWidth: ref.current?.offsetWidth }} className="meme--text bottom">
               {meme.bottomText}
             </h2>
