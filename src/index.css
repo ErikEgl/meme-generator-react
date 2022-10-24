@@ -108,6 +108,17 @@ main {
   border: 1px solid #711F8D !important;
   background-color: rgba(255, 255, 255, 0.2);
 }
+.meme:hover .meme--text:after {
+  content: "";
+  position: absolute;
+  left: -11px;
+  bottom: -11px;
+  width: 25px;
+  height: 25px;
+  background-image: url("./assets/svg/four-arrows.svg");
+  background-color: #fff;
+  border-radius: 50%;
+}
 
 .meme--text {
   border: 1px solid transparent;

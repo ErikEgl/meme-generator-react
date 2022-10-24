@@ -40,6 +40,17 @@ main {
     .meme--text {
       border: 1px solid $main-dark!important;
       background-color: rgba(255, 255, 255, 0.2);
+      &:after {
+        content: '';
+        position: absolute;
+        left: -11px;
+        bottom: -11px;
+        width: 25px;
+        height: 25px;
+        background-image: url("./assets/svg/four-arrows.svg");
+        background-color: #fff;
+        border-radius: 50%;
+      }
     }
   }
 }
