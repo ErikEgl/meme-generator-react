@@ -20,7 +20,7 @@ main {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
   border-radius: 5px;
-  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  background: linear-gradient(90.41deg, $main-dark 1.14%, $main-light 100%);
   color: white;
   border: none;
   cursor: pointer;
@@ -34,16 +34,24 @@ main {
 .meme {
   position: relative;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  &:hover {
+    .meme--text {
+      border: 1px solid $main-dark!important;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
 }
 
 
 
 .meme--text {
+  border: 1px solid transparent;
   position: absolute;
-  width: 80%;
   text-align: center;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
@@ -51,6 +59,9 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
   text-shadow:
       2px 2px 0 #000,
       -2px -2px 0 #000,

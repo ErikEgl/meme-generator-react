@@ -101,14 +101,20 @@ main {
 .meme {
   position: relative;
   display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.meme:hover .meme--text {
+  border: 1px solid #711F8D !important;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .meme--text {
+  border: 1px solid transparent;
   position: absolute;
-  width: 80%;
   text-align: center;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   margin: 15px 0;
   padding: 0 5px;
   font-family: impact, sans-serif;
@@ -116,6 +122,9 @@ main {
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
   text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
 }
 
