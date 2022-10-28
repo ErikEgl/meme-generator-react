@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/meme-generator-react/static/css/main.b6319a88.css",
-    "main.js": "/meme-generator-react/static/js/main.9089daac.js",
+    "main.css": "/meme-generator-react/static/css/main.3e63a120.css",
+    "main.js": "/meme-generator-react/static/js/main.8b0d3088.js",
     "static/media/trollFace.svg": "/meme-generator-react/static/media/trollFace.27ce06f76ec3e221bf9e1895ce72fa85.svg",
+    "static/media/four-arrows.svg": "/meme-generator-react/static/media/four-arrows.ebf48b8753518ce813ba.svg",
     "index.html": "/meme-generator-react/index.html",
-    "main.b6319a88.css.map": "/meme-generator-react/static/css/main.b6319a88.css.map",
-    "main.9089daac.js.map": "/meme-generator-react/static/js/main.9089daac.js.map"
+    "main.3e63a120.css.map": "/meme-generator-react/static/css/main.3e63a120.css.map",
+    "main.8b0d3088.js.map": "/meme-generator-react/static/js/main.8b0d3088.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6319a88.css",
-    "static/js/main.9089daac.js"
+    "static/css/main.3e63a120.css",
+    "static/js/main.8b0d3088.js"
   ]
 }
